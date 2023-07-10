@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".Store_Menu">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:src="@drawable/ic_back"/>
+
+    <TextView
+        android:id="@+id/txtview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Store Menu"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"/>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="40dp"
+        android:padding="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/txtview"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txt6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello Murphy"
+            android:layout_centerHorizontal="true"
+            android:textSize="25sp"/>
+        <Button
+            android:layout_below="@id/txt6"
+            android:id="@+id/btn6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textSize="16sp"
+            android:layout_marginTop="45dp"
+            android:backgroundTint="@color/black"
+            android:text="Chairs" />
+        <Button
+            android:id="@+id/btn7"
+            android:layout_below="@id/btn6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/black"
+            android:text="Sofas" />
+        <Button
+            android:id="@+id/btn8"
+            android:layout_below="@id/btn7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/black"
+            android:text="Tables" />
+        <Button
+            android:id="@+id/btn9"
+            android:layout_below="@id/btn8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/black"
+            android:text="Beds" />
+        <Button
+            android:id="@+id/btn0"
+            android:layout_below="@id/btn9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"
+            android:textColorHint="@color/white"
+            android:backgroundTint="@color/black"
+            android:text="Decore" />
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
